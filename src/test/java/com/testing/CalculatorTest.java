@@ -84,6 +84,7 @@ public class CalculatorTest {
     @CsvSource({"1,2,3","10,55,65","5555,200,5755"})
     public void testAddOfMultipleIntegers(int arg1, int arg2, int expectedResult){
         //Arrange -- tout est prêt
+
         //Act
         int result = calculator.add(arg1,arg2);
         //Assert
